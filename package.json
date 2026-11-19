@@ -1,0 +1,16 @@
+{
+  "name": "marknote-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MarkNote 项目官网 / 文档站（VitePress）",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress build docs && vitepress preview docs",
+    "serve": "vitepress build docs && vitepress preview docs --port 4173"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
